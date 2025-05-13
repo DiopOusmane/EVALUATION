@@ -1,10 +1,10 @@
 <?php
     require_once(__DIR__ . "/partials/head.php");
-    var_dump($_SESSION);
+    // var_dump($_SESSION);
     var_dump($_SESSION['user']);
     if(isset($_SESSION['user'])){
         ?>
-            <h1>Bienvenue <?= $_SESSION['user'][':pseudo'] ?></h1>
+            <h1>Bienvenue <?= $_SESSION['user']['pseudo'] ?></h1>
             <div class="col-8 mx-auto d-block mt-5">
         <?php
         if(isset($subjects)){

@@ -45,6 +45,14 @@ $pull=new Pull("Abercrombie",19.99);
 $pull->afficherProduits();
 $pull->setNom("Pull and Bear");
 $pull->getNom();
+
 $pull->afficherProduits();
 $jogo=new Jogging("Nike",-5);
 $jogo->afficherProduits();
+
+
+// pas de getter et setter pour prix  si tu veux faire echo $pull->prix; // ❌ Erreur fatale 
+// uilisation id incorrecte  pas de points retirés
+// pas de commentaire dans ton code 
+
+// 17/20

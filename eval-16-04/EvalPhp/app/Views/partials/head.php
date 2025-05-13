@@ -17,6 +17,7 @@
         </a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
             <?php
+            var_dump($_SESSION);
             if(isset($_SESSION['user'])){//if mal positione
                 ?>
                 <li class="nav-item">
